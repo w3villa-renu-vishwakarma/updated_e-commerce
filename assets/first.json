@@ -1,0 +1,98 @@
+{
+    "products":[
+     {   "id":1,
+         "name"  : "Headphones",
+         "model" : "Model 123",
+         "price" : "$999.00" ,
+         "cutprice" : "$999.00",
+         "brand" : "Boat" ,
+         "sale" : "-70%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/headphones.png",
+         "hot" : true,
+         "image1" :"assets/image/headphones.png",
+         "image2" : "assets/image/head2.png",
+         "image3" :"assets/image/head1.png",
+         "desc" : "The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed specifically for the creative professional, this display provides more space for easier access to all the tools and palettes needed to edit, format and composite your work. Combine this display with a Mac Pro, MacBook Pro, or PowerMac G5 and there's no limit to what you can achieve.",
+         "stock" : true,
+         "custom" : "Unlimited Blocks, Tabs or Accordions with any HTML content can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities. "
+     },
+     {
+        "id":2,
+         "name"  : "Sandals",
+         "model" : "Model 234",
+         "price" : "$1.00" ,
+         "cutprice" : "$10.00",
+         "brand" : "Bata" ,
+         "sale" : "-90%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/heels.jpg" ,
+         "stock" : true ,
+         "image1" : "assets/image/heels.jpeg",
+         "image2" : "assets/image/heel2.jpeg",
+         "image3" : "assets/image/heel3.jpeg",
+         "desc" : "Product description, along with any other tab can be displayed as tabs, accordion or all-visible blocks in grid format or one under the other.  You can mix and match tabs and blocks in any order and any position. Each tab can also be set up as a link and point to other pages or open popup modules. Optional  collapsible block content is also available as an option for large and tall descriptions or custom content.",
+         "custom" : "Unlimited Blocks, Tabs or Accordions with any HTML content can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities. "
+
+
+     },
+     { "id":3,
+         "name"  : "Camera",
+         "model" : "Model 345",
+         "price" : "$100.00" ,
+         "cutprice" : "$500.00",
+         "brand" : "Nikon" ,
+         "sale" : "-50%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/camera.jpg",
+         "image1" :"assets/image/camera.jpg",
+         "image2" :"assets/image/camera2.jpg",
+         "image3" :"assets/image/cinema.jpg",
+         "custom" : "Unlimited Blocks, Tabs or Accordions with any HTML content can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities. ",
+
+         "stock" : false,
+         "desc" : "Product description, along with any other tab can be displayed as tabs, accordion or all-visible blocks in grid format or one under the other.  You can mix and match tabs and blocks in any order and any position. Each tab can also be set up as a link and point to other pages or open popup modules. Optional  collapsible block content is also available as an option for large and tall descriptions or custom content."
+
+
+     } ,
+     {
+        "id":4,
+         "name"  : "Shoes",
+         "model" : "Model 456",
+         "price" : "$800.00" ,
+         "cutprice" : "$1000.00",
+         "brand" : "Nike" ,
+         "sale" : "-30%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/shoes.jpg",
+         "image1" : "assets/image/shoes.jpg",
+         "image2" : "assets/image/shoes1.jpg",
+         "image3" : "assets/image/shoes2.png",
+         "custom" : "Unlimited Blocks, Tabs or Accordions with any HTML content can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities. ",
+
+         "stock" : true ,
+         "desc" : "Product description, along with any other tab can be displayed as tabs, accordion or all-visible blocks in grid format or one under the other.  You can mix and match tabs and blocks in any order and any position. Each tab can also be set up as a link and point to other pages or open popup modules. Optional  collapsible block content is also available as an option for large and tall descriptions or custom content."
+
+
+     },
+     {  "id":5,
+         "name"  : "Watch",
+         "model" : "Model 567",
+         "price" : "$500.00" ,
+         "cutprice" : "$1500.00",
+         "brand" : "Sonata" ,
+         "sale" : "-75%",
+         "badge" : "Sale 50% off",
+         "image" : "assets/image/watches.jpg",
+         "image1" : "assets/image/watches.jpg",
+         "custom" : "Unlimited Blocks, Tabs or Accordions with any HTML content can be assigned to any individual product or to certain groups of products, like entire categories, brands, products with specific options, attributes, price range, etc. You can indicate any criteria via the advanced product assignment mechanism and only those products matching your criteria will display the modules.Also, any module can be selectively activated per device (desktop/tablet/phone), customer login status and other criteria. Imagine the possibilities. ",
+
+
+         "stock" : false,
+         "desc" : "Product description, along with any other tab can be displayed as tabs, accordion or all-visible blocks in grid format or one under the other.  You can mix and match tabs and blocks in any order and any position. Each tab can also be set up as a link and point to other pages or open popup modules. Optional  collapsible block content is also available as an option for large and tall descriptions or custom content."
+
+
+     }
+     
+    ]
+}

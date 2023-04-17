@@ -1,0 +1,23 @@
+{
+    "slider":[
+        {
+            "image":"assets/image/white_phones.png",
+            "text":"Best mobile options at any resolution",
+            "value":"MOBILE",
+            "button":"LEARN MORE"
+        },
+        {
+            "image":"assets/image/front_headphone.png",
+            "text":"Sound that goes straight to your heart",
+            "button":"SHOP NOW",
+            "value":"NEW ARRIVALS"
+        },
+        {
+            "image":"assets/image/front-laptop.png",
+            "value":"LAYOUTS",
+            "text":"Most advanced admin in opencart",
+            "button":"LEARN MORE"
+        }
+        
+    ]
+}

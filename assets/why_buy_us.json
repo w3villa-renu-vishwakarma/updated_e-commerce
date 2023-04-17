@@ -1,0 +1,115 @@
+{
+    "why_buy_us": [
+        {
+            "top-categories": [
+                {
+                    "image": "assets/image/fashion.jpg",
+                    "button": "FASHION"
+                },
+                {
+                    "image": "assets/image/bag.jpg",
+                    "button": "BAGS"
+                },
+                {
+                    "image": "assets/image/health.jpg",
+                    "button": "BEAUTY"
+                },
+                {
+                    "image": "assets/image/footwear.jpg",
+                    "button": "FOOTWEAR"
+                },
+                {
+                    "image": "assets/image/home-decor.jpg.jpg",
+                    "button": "HOME DECOR"
+                },
+                {
+                    "image": "assets/image/electronics.jpg",
+                    "button": "ELECTRONICS"
+                },
+                {
+                    "image": "assets/image/appliances.jpg",
+                    "button": "APPLIANCES"
+                },
+                {
+                    "image": "assets/image/baby.jpg",
+                    "button": "BABY & KIDS"
+                },
+                {
+                    "image": "assets/image/rose.jpg",
+                    "button": "FLOWERS"
+                },
+                {
+                    "image": "assets/image/food.jpg",
+                    "button": "FOOD"
+                }
+            ],
+            "electronics": [
+                {
+                    "image": "assets/image/desktop.jpg",
+                    "button": "Desktops"
+                },
+                {
+                    "image": "assets/image/laptop.jpg",
+                    "button": "Laptops"
+                },
+                {
+                    "image": "assets/image/component.jpg",
+                    "button": "components"
+                },
+                {
+                    "image":"assets/image/iphone.jpg",
+                    "button":"Phones"
+                },
+                {
+                    "image":"assets/image/cameras.jpg",
+                    "button":"Cameras"
+                }
+            ],
+            "beauty":[
+                { 
+                    "image":"assets/image/accessories.jpg",
+                    "button":"Accessories"
+                      
+                },
+                {
+                    "image":"assets/image/body.jpg",
+                    "button":"body"
+                },
+                {
+                    "image":"assets/image/lipstick.jpg",
+                    "button":"lipstick"
+                },
+                {
+                    "image":"assets/image/makeup.jpg",
+                    "button":"Makeup"
+                },
+                {
+                    "image":"assets/image/mascara.jpg",
+                    "button":"mascara"
+                }
+            ],
+            "fashion": [
+                {
+                    "image": "assets/image/sunglasses.jpg",
+                    "button": "Accessories"
+                },
+                {
+                    "image": "assets/image/dresses.jpg",
+                    "button": "Dresses"
+                },
+                {
+                    "image": "assets/image/pants.jpg",
+                    "button": "Pants"
+                },
+                {
+                    "image": "assets/image/tshirts.jpg",
+                    "button": "T-shirts"
+                },
+                {
+                    "image": "assets/image/tops.jpg",
+                    "button": "Tops"
+                }
+            ]
+        }
+    ]
+}
