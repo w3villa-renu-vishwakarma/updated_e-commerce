@@ -140,7 +140,12 @@ function toggleWhyBuyCategories(elem) {
     elem.classList.add("active-why-buy");
     displayWhyBuyUs(elem.innerHTML.trim());
 }
-
+function toggleFeaturedCategories(elem) {
+  let activElem = document.getElementsByClassName("active-featured")[0];
+  activElem.classList.remove("active-featured");
+  elem.classList.add("active-featured");
+  displayProducts(elem.innerHTML.trim());
+}
   
 
 displayWhyBuyUs("top_categories");

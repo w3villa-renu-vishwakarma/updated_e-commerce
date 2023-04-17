@@ -820,7 +820,7 @@
 }
   .side-card-container {
     display: flex;
-    height: 500px;
+    height:530px;
     width: auto;
     row-gap: 20px;
     flex-direction: column;
@@ -958,7 +958,8 @@
 }
 .blog-items{
   justify-content: center;
-  display: flex;
+  display: flex !important;
+  flex-wrap: wrap;
 }
 .categories-card-carosel .text-on-image {
   position: absolute;
@@ -1594,4 +1595,45 @@ span.psw {
 .tablinks.active {
   color: #444;
   border-bottom: 1px solid red;
+}
+#multilevel{
+  position:absolute;
+  margin-left: 360px;
+  margin-top: 180px;
+  width: 10%;
+  background-color: white;
+  z-index: 1000;
+}
+#fullwidth{
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  margin-top: -10px;
+}
+#mega{
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 370px;
+  margin-left: 400px;
+  background-color: white;
+}
+.fullwidth-container{
+  display: flex;
+}
+.sale-badge {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 2px;
+}
+.unlimited-badge {
+  background-color:blue;
+  color: white;
+  text-align: center;
+}
+.custom-badge {
+  background-color:green;
+  color: white;
+  text-align: center;
 }

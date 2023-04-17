@@ -1,0 +1,77 @@
+{
+    "featured_products": [
+        {
+            
+            "latest": [
+                {
+                    "image": "assets/image/sofa.png",
+                    "name": "Yellow Modern Armchair",
+                    "model": "Model 189",
+                    "price": "$1.00",
+                    "brand": "Sarah Bloom",
+                    "sale": "New"
+                },
+                {
+                    "image": "assets/image/sofa.png",
+                    "name": "Yellow Modern Armchair",
+                    "model": "Model 189",
+                    "price": "$1.00",
+                    "brand": "Sarah Bloom",
+                    "sale": "New"
+                },
+                {
+                    "image": "assets/image/sofa.png",
+                    "name": "Yellow Modern Armchair",
+                    "model": "Model 189",
+                    "price": "$1.00",
+                    "brand": "Sarah Bloom",
+                    "sale": "New"
+                },
+                {
+                    "image": "assets/image/sofa.png",
+                    "name": "Yellow Modern Armchair",
+                    "model": "Model 189",
+                    "price": "$1.00",
+                    "brand": "Sarah Bloom",
+                    "sale": "New"
+                }
+            ],
+            "bestsellers": [
+                {
+                    "image": "assets/image/accessories.jpg",
+                    "button": "Accessories"
+                },
+                {
+                    "image": "assets/image/body.jpg",
+                    "button": "body"
+                },
+                {
+                    "image": "assets/image/lipstick.jpg",
+                    "button": "lipstick"
+                },
+                {
+                    "image": "assets/image/makeup.jpg",
+                    "button": "Makeup"
+                }
+            ],
+            "specials": [
+                {
+                    "image": "assets/image/sunglasses.jpg",
+                    "button": "Accessories"
+                },
+                {
+                    "image": "assets/image/dresses.jpg",
+                    "button": "Dresses"
+                },
+                {
+                    "image": "assets/image/pants.jpg",
+                    "button": "Pants"
+                },
+                {
+                    "image": "assets/image/tshirts.jpg",
+                    "button": "T-shirts"
+                }
+            ]
+        }
+    ]
+}
