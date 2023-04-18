@@ -150,15 +150,70 @@ let multilevel_content = document.getElementById('multilevel')
 function mouseOut1(){
     multilevel_content.style.display = "none";
 }
+
 let megamenu_content = document.getElementById('mega')
 
  let megamenu =  document.getElementById("megaa")
  megamenu.addEventListener("mouseover", mouseOver2);
- document.getElementById("mega").addEventListener("mouseout", mouseOut2);
+ document.getElementById("megaa").addEventListener("mouseout", mouseOut2);
 
  function mouseOver2() {
     megamenu_content.style.display = "block";
   }
 function mouseOut2(){
     megamenu_content.style.display = "none";
+}
+let all_content = document.getElementById('alldepartment')
+
+ let all =  document.getElementById("allll")
+ all.addEventListener("mouseover", mouseOver3);
+ document.getElementById("allll").addEventListener("mouseout", mouseOut3);
+
+ function mouseOver3() {
+    all_content.style.display = "block";
+  }
+function mouseOut3(){
+    all_content.style.display = "none";
+}
+
+
+function login(){
+    let u_name = document.getElementById("uname").value;
+    let u_psw = document.getElementById("psw").value;
+    let record = new Array();
+    record = JSON.parse(localStorage.getItem("users")) ? JSON.parse(localStorage.getItem("users")) : []
+    console.log(record)
+    let matched = false;
+    for(let i =0 ; i<record.length ; i++){
+         if(record[i].email == u_name && record[i].psw == u_psw){
+                  alert("login successfully")
+                  matched = true;
+                  break
+         }         
+    }
+    if(!matched){
+        alert("wrong data")
+    }
+}
+
+function register() {
+    let name = document.getElementById("username").value;
+    let email = document.getElementById("uemail").value;
+    let psw = document.getElementById("enterpsw").value;
+
+    let user_records = new Array();
+    user_records = JSON.parse(localStorage.getItem("users")) ? JSON.parse(localStorage.getItem("users")) : []
+    if (user_records.some((v) => { return v.email == email })) {
+        alert("duplicate data");
+    }
+    else {
+        user_records.push({
+            "name": name,
+            "email": email,
+            "psw": psw
+        })
+        localStorage.setItem("users", JSON.stringify(user_records));
+        alert("register successfully")
+    }
+
 }

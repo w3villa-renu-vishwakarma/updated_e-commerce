@@ -56,12 +56,12 @@
                     <a>
                         <i class="fa-solid fa-question"></i>
                         <p id="faq">FAQ</p>
-                        <i class="fa-solid fa-sort-down"></i>
+                         <i class="fa-solid fa-sort-down"></i>
                     </a>
                     <ul class="drop-down-menu">
-                        <li><a>1</a></li>
+                        <!-- <li><a>1</a></li>
                         <li><a>2</a></li>
-                        <li><a>3</a></li>
+                        <li><a>3</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -73,9 +73,9 @@
                         <i class="fa-solid fa-sort-down"></i>
                     </a>
                     <ul class="drop-down-menu">
-                        <li><a>1</a></li>
+                        <!-- <li><a>1</a></li>
                         <li><a>2</a></li>
-                        <li><a>3</a></li>
+                        <li><a>3</a></li> -->
                     </ul>
                 </div>
                 <div class="currency dropdown">
@@ -87,9 +87,9 @@
                         <i class="fa-solid fa-sort-down"></i>
                     </a>
                     <ul class="drop-down-menu">
-                        <li><a>1</a></li>
+                        <!-- <li><a>1</a></li>
                         <li><a>2</a></li>
-                        <li><a>3</a></li>
+                        <li><a>3</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -102,12 +102,12 @@
                             <i class="fa-solid fa-bars"></i>
                         </div>
                         <p id="More-enu">More Menus</p>
-                        <i class="fa-solid fa-sort-down"></i>
+                               <i class="fa-solid fa-sort-down"></i>
                     </a>
                     <ul class="drop-down-menu">
-                        <li><a>1</a></li>
+                        <!-- <li><a>1</a></li>
                         <li><a>2</a></li>
-                        <li><a>3</a></li>
+                        <li><a>3</a></li> -->
                     </ul>
                 </div>
                 <div class="delivery">
@@ -141,10 +141,10 @@
                     </div>
 
                     <ul class="drop-down-menu">
-                        <li><a>1</a></li>
+                        <!-- <li><a>1</a></li>
                         <li><a>2</a></li>
                         <li><a>3</a></li>
-                        <li><a>4</a></li>
+                        <li><a>4</a></li> -->
                     </ul>
                 </div>
                 <input type="text" placeholder="Search here..." id="search" />
@@ -203,10 +203,38 @@
             <div class="second-menu">
                 <div>
                     <a class="bars-icon">
-                        <div class="hamburgur"><i class="fa-solid fa-bars"></i></div>
-                        <p>All departments</p>
+                        <div class="hamburgur"><i class="fa-solid fa-bars"></i> </div>
+                        <p id="allll">All departments</p>
                         <div class="sale">Sale</div>
                     </a>
+                    <div id="alldepartment" style="display: none">
+                        <div class="alldep" style="display: flex;">
+                            <div class="alldep-name">
+                                <a href="#"><i class="fa-solid fa-bars"></i> &nbsp;Shop by category</a>
+                                <br>
+                                <br>
+                                <a href="#"><i class="fa-brands fa-apple"></i>Shop by Brand</a>
+                                <br>
+                                <br>
+                
+                                <a href="#"><i class="fa-solid fa-percentage"></i>&nbsp;Special deals</a>
+                                <br>
+                                <br>
+                
+                                <a href="#"><i class="fa-solid fa-crown"></i>&nbsp;Bestsellers</a>
+                                <br>
+                                <br>
+                
+                                <a href="#"><i class="fa-solid fa-star"></i> &nbsp;Custom link</a>
+                                <br>
+                                <br>
+                
+                                <a href="#"><i class="fa-solid fa-store"></i> &nbsp;See all products</a>
+                
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
                 <div id="multi-level">
                     <a>
@@ -573,7 +601,7 @@
             <i class="fa-solid fa-user"> </i>
             <p id="login-logout-text-mobile">Login</p>
         </a>
-        <a>
+        <a class="trigger2">
             <i class="fa-solid fa-pencil"></i>
             <p>Register</p>
         </a>
@@ -621,13 +649,13 @@
 
             <div class="searchbar-container">
 
-                <a class="search-icon" href="shoppingCart.html">
+                <a id="searchicon">
                     <div><i class="fa-solid fa-cart-shopping"></i></div>
                 </a>
             </div>
         </div>
     </div>
-    <div id="closing">
+
         <!-- @@@@@@@@@@@@@@@@@@@@ section 1 @@@@@@@@@@@@@@@@ -->
         <section class="section1 left-right-margin" id="sec1">
             <div class="slideshow-container" style="position: relative;">
@@ -637,9 +665,9 @@
                     <div class="text-over-image">
                         <input type="button" value="MOBILE" />
                         <h1>Best mobile options at any resolution</h1>
-                        <div class="learn-more">
-                            <p>Learn more</p>
-                        </div>
+                        <button class="learn-more">
+                            Learn more
+                        </button>
                     </div>
                 </div>
 
@@ -648,9 +676,9 @@
                     <div class="text-over-image">
                         <input type="button" value="Shop Now" />
                         <h1>Sound that goes straight to your heart</h1>
-                        <div class="learn-more">
-                            <p>New Arrivals</p>
-                        </div>
+                        <button class="learn-more">
+                            New Arrivals
+                        </button>
                     </div>
                 </div>
 
@@ -659,9 +687,9 @@
                     <div class="text-over-image">
                         <input type="button" value="Layouts" />
                         <h1>Most advanced in opencart</h1>
-                        <div class="learn-more">
-                            <p>Learn more</p>
-                        </div>
+                        <button class="learn-more">
+                            Learn more
+                        </button>
                     </div>
                 </div>
 
@@ -853,7 +881,7 @@
                 <h1>What are people saying about us</h1>
                 <hr />
             </div>
-            <div class="blog-items ">
+            <div class="blog-items">
                 <div class="featured-products-card-blog">
                     <p class="quote"><i class="fa-solid fa-quote-left"></i></p>
                     <div class="blog-paragraph-container">
@@ -897,7 +925,7 @@
             </div>
         </section>
 
-    </div>
+    
     <!-- @@@@@@@@@@@@@@ searching @@@@@@@@@@@@@@@@@@ -->
 
 
@@ -909,7 +937,7 @@
         </div>
         <div class="most-viewed-container d-flex">
 
-            <div class=" container-one d-flex">
+            <div class=" container-one">
 
                 <div class="images">
                     <img src="assets/image/glasses.jpg" height="80px" width="100px" />
@@ -920,15 +948,15 @@
                         <p>$397.00</p>
                     </span>
                     <br>
-                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                    <p class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
                             class="fa-regular fa-heart"></i> &nbsp;
                         &nbsp;
-                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
-                    </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left "></i>
+                    </p>
 
                 </div>
             </div>
-            <div class="container-two d-flex">
+            <div class="container-two">
 
                 <div class="images">
                     <img src="assets/image/headphones.jpg" height="80px" width="100px" />
@@ -936,18 +964,18 @@
                 <div class="name">
                     <p>Headphones</p>
                     <span class="price">
-                        <p class="red-color">$999.00 &nbsp;<s style="color: black;">$3,299.00</s></p>
+                        <p style="color: red;">$999.00 &nbsp;<s style="color: black;">$3,299.00</s></p>
                     </span>
                     <br>
-                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                    <p class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
                             class="fa-regular fa-heart"></i> &nbsp;
                         &nbsp;
-                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
-                    </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left "></i>
+                    </p>
 
                 </div>
             </div>
-            <div class="container-three d-flex">
+            <div class="container-three">
 
                 <div class="images">
                     <img src="assets/image/heels.jpg" height="80px" width="100px" />
@@ -958,15 +986,15 @@
                         <p>$425.00</p>
                     </span>
                     <br>
-                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                    <p class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
                             class="fa-regular fa-heart"></i> &nbsp;
                         &nbsp;
-                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
-                    </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left "></i>
+                    </p>
 
                 </div>
             </div>
-            <div class=" container-four d-flex">
+            <div class=" container-four">
 
                 <div class="images">
                     <img src="assets/image/glasses.jpg" height="80px" width="100px" />
@@ -977,15 +1005,14 @@
                         <p>$397.00</p>
                     </span>
                     <br>
-                    <div class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
+                    <p class="most-viewed-icon"><i class="fa-solid fa-cart-shopping"></i> &nbsp; &nbsp;<i
                             class="fa-regular fa-heart"></i> &nbsp;
                         &nbsp;
-                        <i class="fa-solid fa-arrow-right-arrow-left border"></i>
-                    </div>
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    </p>
 
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -1078,15 +1105,15 @@
                 <img src="assets/image/avatar.png" alt="">
             </div>
             <div class="modal-container">
-                <label for="uname"><b>Username</0b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" id="uname" required>
 
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" id="psw" required>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
-                <button type="submit">Login</button>
+                <button type="submit" onclick = "login()">Login</button>
 
             </div>
             <span class="psw"><a href="#">Forgot password?</a></span>
@@ -1105,17 +1132,17 @@
             </div>
             <div class="modal-container">
                 <label for="uname"><b>Name</b></label>
-                <input type="text" placeholder="Enter name" name="uname" required>
+                <input type="text" placeholder="Enter name" id="username" required>
 
                 <label for="uname"><b>Email</b></label>
-                <input type="email" placeholder="Enter email" name="uemail" required>
+                <input type="email" placeholder="Enter email" id="uemail" required>
 
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" id="enterpsw" required>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> I have agree to your<a>Privacy Policy</a>
                 </label>
-                <button type="submit">Register</button>
+                <button type="submit" onclick="register()">Register</button>
 
             </div>
 

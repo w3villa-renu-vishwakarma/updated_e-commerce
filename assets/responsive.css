@@ -156,7 +156,13 @@
 
 @media screen and (max-width: 430px) {
     .section1.text-over-image h1 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+    .section1 .text-over-image {
+      position: absolute;
+      width: 45%;
+      top: 15%;
+      left: 10%;
     }
 }
 
@@ -174,11 +180,11 @@
         height: 230px;
     }
 
-    .section1 .carousel {
+    .section1 .mySlides {
         width: 100%;
     }
 
-    .section1 .carousel img {
+    .section1 .mySlides img {
         border-radius: 8px;
         height: 45%;
         object-fit: cover;
@@ -208,9 +214,8 @@
         margin-bottom: 10px;
     }
 
-    .section1 .text-over-image .learn-more p{
-       font-size: 15px ;
-       width: 160px;
+    .section1 .text-over-image .learn-more {
+       font-size: 10px ;
     }
 
     .side-card-container .card img {
@@ -218,7 +223,7 @@
 
     }
 
-    .card .image img {
+    .side-card-container .card .image img {
         height: 50%;
         width: 50%;
         margin-left: 60px;
@@ -238,7 +243,7 @@
         position: absolute;
         top: 50%;
         left: 5%;
-        width: 50%;
+        width: 80%;
     }
 
     .text-over-card-image p {
@@ -289,5 +294,11 @@
   
     footer div {
       width: 300px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .people-saying-about-us .blog-items{
+      flex-wrap: wrap!important;
+      margin-left: 10%;
     }
   }
