@@ -172,7 +172,7 @@
         justify-content: center;
     }
 
-    .side-card-container {
+    .side-card {
         flex-direction: row;
         column-gap: 10px;
         width: 100%;
@@ -218,19 +218,19 @@
        font-size: 10px ;
     }
 
-    .side-card-container .card img {
+    .side-card .card img {
         height: 100px;
 
     }
 
-    .side-card-container .card .image img {
+    .side-card .card .image img {
         height: 50%;
         width: 50%;
         margin-left: 60px;
         object-fit: contain;
     }
 
-    .side-card-container .card {
+    .side-card .card {
         position: relative;
         height: 100%;
         width: 100%;
